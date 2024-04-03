@@ -1,0 +1,21 @@
+#favorite {
+  .favorite {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    overflow-x: auto;
+    &--fav {
+      width: 300px;
+      position: relative;
+    }
+    .close {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      color: red;
+      font-size: 30px;
+      cursor: pointer;
+    }
+  }
+}

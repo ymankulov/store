@@ -1,0 +1,22 @@
+@import "../src//assets//styles/Header.scss";
+@import "../src//assets//styles/Hero.scss";
+@import "../src//assets//styles/Product.scss";
+@import "../src//assets//styles/ProductCard.scss";
+@import "../src//assets//styles/Basket.scss";
+@import "../src//assets//styles/BasketCard.scss";
+@import "../src//assets//styles/Favorite.scss";
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+

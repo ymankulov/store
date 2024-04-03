@@ -1,0 +1,10 @@
+#basket {
+  padding: 40px 0;
+  .basket {
+    &--product {
+      width: 70%;
+      height: 450px;
+      overflow-y: scroll;
+    }
+  }
+}

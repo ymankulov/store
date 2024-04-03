@@ -1,0 +1,45 @@
+.basketCard {
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  background: rgba(167, 163, 163, 0.633);
+  padding: 30px;
+  border-radius: 30px;
+  margin-bottom: 20px;
+  &--text {
+    margin-left: 30px;
+    p {
+      margin: 20px 0;
+    }
+    &__quantity {
+      margin-top: 70px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border: 3px solid black;
+      width: 100px;
+      button {
+        font-size: 20px;
+        cursor: pointer;
+        background: black;
+        color: white;
+        border: none;
+        width: 30px;
+        height: 20px;
+      }
+    }
+  }
+  &--right {
+    &__delete {
+      a {
+        font-size: 30px;
+        cursor: pointer;
+        color: red;
+        position: absolute;
+        bottom: 40px;
+        right: 50px;
+      }
+    }
+  }
+}
